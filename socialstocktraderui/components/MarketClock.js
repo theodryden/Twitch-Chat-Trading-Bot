@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { format } from 'date-fns';
+import styles from './PLLineChart.module.css'
 
 const MarketClock = () => {
   const [clockData, setClockData] = useState(null);
@@ -29,7 +30,7 @@ const MarketClock = () => {
 
   return (
     <div>
-      <h2>Market Clock</h2>
+      <h2 className={styles.PLLineChart}>Market Clock</h2>
       <p><strong>Current Timestamp:</strong> {format(new Date(timestamp), 'yyyy-MM-dd HH:mm:ss')}</p>
       <p><strong>Market Open:</strong> {is_open ? 'Yes' : 'No'}</p>
       <p><strong>Next Open:</strong> {format(new Date(next_open), 'yyyy-MM-dd HH:mm:ss')}</p>
