@@ -9,11 +9,8 @@ const Navbar = () => {
                 <Link href="/" className={styles.navLink}>
                     Home
                 </Link>
-                <Link href="/gain-loss" className={styles.navLink}>
-                    Gain/Loss
-                </Link>
-                <Link href="/positions" className={styles.navLink}>
-                    Positions
+                <Link href="/app-guide" className={styles.navLink}>
+                    App Guide
                 </Link>
             </div>
         </nav>

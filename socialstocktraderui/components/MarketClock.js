@@ -30,10 +30,10 @@ const MarketClock = () => {
 
   return (
     <div>
-      <h2 className={styles.PLLineChart}>Market Clock</h2>
-      <p className={styles.PLLineChart}><strong>Current Timestamp:</strong> {format(new Date(timestamp), 'yyyy-MM-dd HH:mm:ss')}</p>
-      <p className={styles.PLLineChart}><strong>Market Open:</strong> {is_open ? 'Yes' : 'No'}</p>
-      <p className={styles.PLLineChart}><strong>Next Open:</strong> {format(new Date(next_open), 'yyyy-MM-dd HH:mm:ss')}</p>
+      <h2 className={styles.PLLineChart}>US Market Clock</h2>
+      <p className={styles.PLLineChart}><strong>Current UK Timestamp:</strong> {format(new Date(timestamp), 'yyyy-MM-dd HH:mm:ss')}</p>
+      <p className={styles.PLLineChart}><strong>US Market Open:</strong> {is_open ? 'Yes' : 'No'}</p>
+      <p className={styles.PLLineChart}><strong>Next US Open:</strong> {format(new Date(next_open), 'yyyy-MM-dd HH:mm:ss')}</p>
     </div>
   );
 };

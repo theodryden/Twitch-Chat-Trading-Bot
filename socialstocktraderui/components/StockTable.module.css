@@ -1,0 +1,44 @@
+/* stocktable.module.css */
+
+.StockTable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  .tables {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .tableContainer {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .StockTable h2 {
+    margin-top: 0;
+  }
+  
+  .StockTable table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .StockTable th, .StockTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .StockTable th {
+    background-color: #f2f2f2;
+  }
+  
