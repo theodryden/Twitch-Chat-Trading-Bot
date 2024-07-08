@@ -34,6 +34,8 @@
     max-width: 400px;
     width: 100%; /* Full width within the max-width */
     text-align: center; /* Center the text inside the container */
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
   
@@ -45,6 +47,8 @@
     max-width: 400px;
     width: 100%; /* Full width within the max-width */
     text-align: center; /* Center the text inside the container */
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   .StockTable h2 {
