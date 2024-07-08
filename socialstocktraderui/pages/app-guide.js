@@ -1,7 +1,8 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import StockTable from '../components/stocktable'
+import StockTable from '../components/StockTable'
 import TradingGuide from '../components/TradingGuide'
+import Footer from '../components/Footer'
 
 const appGuide = () => {
   return (
@@ -11,7 +12,9 @@ const appGuide = () => {
         <TradingGuide />
         <StockTable />
       </main>
+      <Footer />
     </div>
+
   )
 }
 

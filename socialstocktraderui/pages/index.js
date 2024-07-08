@@ -6,7 +6,7 @@ import AccountBarChart from '../components/AccountBarChart';
 import PLLineChart from '../components/PLLineChart';
 import PieChart from '../components/PieChart';
 import MarketClock from '../components/MarketClock';
-
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
@@ -16,38 +16,38 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar/>
-      <main>
-        <AccountBarChart />
-        <PLLineChart />
-        <PieChart />
+      <main className={styles.main}>
+        <div className={styles.chartContainer}>
+          <AccountBarChart />
+          <PLLineChart />
+          <PieChart />
+        </div>
+        <p></p>
         <MarketClock />
+        <p></p>
       </main>
       
-      
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Created by{' Theo Dryden '}
-          <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
-        </a>
-      </footer>
+      <Footer />
 
       <style jsx>{`
         main {
-          padding: 5rem 0;
           flex: 1;
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
         }
+        .chartContainer {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          width: 100%;
+          margin-top: 0;
+        }
         footer {
           width: 100%;
           height: 100px;
-          border-top: 1px solid #eaeaea;
+          border-top: 5px solid #eaeaea;
           display: flex;
           justify-content: center;
           align-items: center;

@@ -1,22 +1,21 @@
 // src/components/StockTables.js
-
 import React from 'react';
 import styles from './stocktable.module.css';
 
 const StockTables = () => {
   const americanStocks = [
-    { symbol: 'MSFT', name: 'Microsoft Corporation' },
-    { symbol: 'AAPL', name: 'Apple Inc.' },
-    { symbol: 'NVDA', name: 'NVIDIA Corporation' },
-    { symbol: 'GOOG', name: 'Alphabet Inc.' },
-    { symbol: 'AMZN', name: 'Amazon.com, Inc.' },
-    { symbol: 'META', name: 'Meta Platforms, Inc.' },
-    { symbol: 'TSLA', name: 'Tesla, Inc.' },
-    { symbol: 'AMD', name: 'Advanced Micro Devices, Inc.' },
-    { symbol: 'CRM', name: 'Salesforce, Inc.' },
-    { symbol: 'BABA', name: 'Alibaba Group Holding Limited' },
-    { symbol: 'INTC', name: 'Intel Corporation' },
-    { symbol: 'PYPL', name: 'PayPal Holdings, Inc.' }
+    { symbol: 'MSFT', name: 'MICROSOFT CORPORATION' },
+    { symbol: 'AAPL', name: 'APPLE INC.' },
+    { symbol: 'NVDA', name: 'NVIDIA CORPORATION' },
+    { symbol: 'GOOG', name: 'ALPHABET INC.' },
+    { symbol: 'AMZN', name: 'AMAZON.COM, INC.' },
+    { symbol: 'META', name: 'META PLATFORMS, INC.' },
+    { symbol: 'TSLA', name: 'TESLA, INC.' },
+    { symbol: 'AMD', name: 'ADVANCED MICRO DEVICES, INC.' },
+    { symbol: 'CRM', name: 'SALESFORCE, INC.' },
+    { symbol: 'BABA', name: 'ALIBABA GROUP HOLDING LIMITED' },
+    { symbol: 'INTC', name: 'INTEL CORPORATION' },
+    { symbol: 'PYPL', name: 'PAYPAL HOLDINGS, INC.' }
   ];
 
   const britishStocks = [
@@ -35,15 +34,17 @@ const StockTables = () => {
   ];
 
   return (
+    <> 
+    <div className={styles.tableContainerMain}>
     <div className={styles.container}>
       <div className={styles.tables}>
-        <div className={styles.tableContainer}>
+        <div className={styles.tableContainer1}>
           <h2>American Stocks</h2>
           <table>
             <thead>
               <tr>
                 <th>Symbol</th>
-                <th>Name</th>
+                <th>Company Name</th>
               </tr>
             </thead>
             <tbody>
@@ -56,13 +57,13 @@ const StockTables = () => {
             </tbody>
           </table>
         </div>
-        <div className={styles.tableContainer}>
+        <div className={styles.tableContainer2}>
           <h2>British Stocks</h2>
           <table>
             <thead>
               <tr>
                 <th>Symbol</th>
-                <th>Name</th>
+                <th>Company Name</th>
               </tr>
             </thead>
             <tbody>
@@ -77,6 +78,8 @@ const StockTables = () => {
         </div>
       </div>
     </div>
+    </div>
+    </>
   );
 };
 

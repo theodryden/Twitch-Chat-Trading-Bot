@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { format } from 'date-fns';
-import styles from './PLLineChart.module.css'
+import styles from './MarketClock.module.css'
 
 const MarketClock = () => {
   const [clockData, setClockData] = useState(null);
@@ -29,11 +29,11 @@ const MarketClock = () => {
   const { timestamp, is_open, next_open } = clockData;
 
   return (
-    <div>
-      <h2 className={styles.PLLineChart}>US Market Clock</h2>
-      <p className={styles.PLLineChart}><strong>Current UK Timestamp:</strong> {format(new Date(timestamp), 'yyyy-MM-dd HH:mm:ss')}</p>
-      <p className={styles.PLLineChart}><strong>US Market Open:</strong> {is_open ? 'Yes' : 'No'}</p>
-      <p className={styles.PLLineChart}><strong>Next US Open:</strong> {format(new Date(next_open), 'yyyy-MM-dd HH:mm:ss')}</p>
+    <div className={styles.MarketClock}>
+      <h2 className={styles.MarketClock}>US Market Clock</h2>
+      <p className={styles.MarketClock}><strong>Current UK Timestamp:</strong> {format(new Date(timestamp), 'yyyy-MM-dd HH:mm:ss')}</p>
+      <p className={styles.MarketClock}><strong>US Market Open:</strong> {is_open ? 'Yes' : 'No'}</p>
+      <p className={styles.MarketClock}><strong>Next US Open:</strong> {format(new Date(next_open), 'yyyy-MM-dd HH:mm:ss')}</p>
     </div>
   );
 };

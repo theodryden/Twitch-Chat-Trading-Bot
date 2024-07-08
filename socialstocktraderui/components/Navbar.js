@@ -10,7 +10,7 @@ const Navbar = () => {
                     Home
                 </Link>
                 <Link href="/app-guide" className={styles.navLink}>
-                    App Guide
+                    Guide
                 </Link>
             </div>
         </nav>

@@ -1,0 +1,8 @@
+.MarketClock {
+    text-align: center;
+    padding: 1rem;
+    background: #fff; /* Background color for the clock container */
+    border: 1px solid #eaeaea; /* Border around the clock container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    border-radius: 8px; /* Rounded corners */
+}

@@ -8,18 +8,43 @@
     background-color: #f8f9fa;
   }
   
+  
   .tables {
     display: flex;
     gap: 20px;
   }
+
   
-  .tableContainer {
-    background: #ffffff;
+  .tableContainerMain {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    min-height: 25vh; /* Full viewport height */
+    padding: 1rem; /* Space around the content */
+    background-color: #f0f0f0; /* Optional: Light background color for the page */
+  }
+  
+  
+  .tableContainer1 {
+    background-color: white; /* Background color */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 400px;
-    width: 100%;
+    width: 100%; /* Full width within the max-width */
+    text-align: center; /* Center the text inside the container */
+  }
+
+  
+  .tableContainer2 {
+    background-color: white; /* Background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%; /* Full width within the max-width */
+    text-align: center; /* Center the text inside the container */
   }
   
   .StockTable h2 {
