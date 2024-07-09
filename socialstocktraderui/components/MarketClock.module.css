@@ -6,3 +6,17 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
     border-radius: 8px; /* Rounded corners */
 }
+
+@media (min-width: 768px) {
+    .col {
+      flex-basis: 45%;
+    }
+  }
+  
+  /* Example: Adjust styles for larger desktop screens (1024px and up) */
+  @media (min-width: 1024px) {
+    .container {
+      padding: 30px;
+    }
+  }
+  
