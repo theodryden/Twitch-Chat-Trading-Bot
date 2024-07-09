@@ -12,6 +12,11 @@ const Navbar = () => {
                 <Link href="/app-guide" className={styles.navLink}>
                     Guide
                 </Link>
+                <Link href="/AccountHistory" className={styles.navLink}>
+                    Account History
+                </Link>
+                
+                
             </div>
         </nav>
     );
