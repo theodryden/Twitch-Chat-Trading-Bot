@@ -1,6 +1,6 @@
 // src/components/StockTables.js
 import React from 'react';
-import styles from './stocktable.module.css';
+import styles from './StockTable.module.css';
 
 const StockTables = () => {
   const americanStocks = [

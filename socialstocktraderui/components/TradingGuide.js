@@ -1,6 +1,6 @@
 // src/components/TradingGuide.js
 import React from 'react';
-import styles from './tradingguide.module.css'
+import styles from './TradingGuide.module.css'
 
 const TradingGuide = () => {
   return (
