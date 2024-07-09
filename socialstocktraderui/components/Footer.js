@@ -39,7 +39,7 @@ const Footer = () => {
           </a>
         </IconContainer>
 
-        <p className={styles.disclaimer}>Disclaimer: This website is not a financial advice website, nor is it intended as a platform for the purchase or promotion of specific companies using real money. Participation involves the use of PAPER-Traded assets and the creator of this app cannot be held responsible for any financially irresposible decisions taken from the activities shared on this website/platform..</p>
+        <p className={styles.disclaimer}>Disclaimer: This website is not a financial advice website, nor is it intended as a platform for the purchase or promotion of specific companies using real money. Participation involves the use of PAPER-Traded assets and the creator of this app cannot be held responsible for any financially irresposible decisions taken from the activities shared on this website/platform. Any and alll feedback is welcome.</p>
       </footer>
     </div>
   )

@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Social Stock Trader</title>
+        <title>SST - Social Stock Trader</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar/>
