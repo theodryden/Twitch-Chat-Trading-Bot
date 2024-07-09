@@ -23,6 +23,7 @@ const AccountHistory = () => {
       <Navbar />
       <h1 className={styles.AccountHistory}>Account History</h1>
       <OrderHistory orders={orders} />
+      <p></p>
       <Footer />
     </div>
   );

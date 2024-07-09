@@ -1,22 +1,24 @@
-// src/api/orderHistory.js
+
 
 export const fetchOrderHistory = async () => {
-    const options = {
+  const options = {
       method: 'GET',
       headers: {
-        accept: 'application/json',
-        'APCA-API-KEY-ID': 'PKIPOJYZOG8ZA2QFTMO8',
-        'APCA-API-SECRET-KEY': 'GOR6pfbYHgn5iTlPVGeBfpc5SJYXLpGet8z6swl3',
+          accept: 'application/json',
+          'APCA-API-KEY-ID': process.env.ALPACA_API_KEY_ID, // Use environment variable
+          'APCA-API-SECRET-KEY': process.env.ALPACA_API_SECRET_KEY, // Use environment variable
       },
-    };
-  
-    try {
+  };
+
+  try {
       const response = await fetch('https://paper-api.alpaca.markets/v2/orders?status=all', options);
+      if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+      }
       const data = await response.json();
       return data;
-    } catch (error) {
+  } catch (error) {
       console.error('Error fetching order history:', error);
       return [];
-    }
-  };
-  
+  }
+};

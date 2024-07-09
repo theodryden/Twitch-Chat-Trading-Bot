@@ -26,7 +26,6 @@ export default function Home() {
         <MarketClock />
         <p></p>
       </main>
-      
       <Footer />
 
       <style jsx>{`

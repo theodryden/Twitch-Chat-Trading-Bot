@@ -12,6 +12,7 @@ const appGuide = () => {
         <TradingGuide />
         <StockTable />
       </main>
+      <p></p>
       <Footer />
     </div>
 

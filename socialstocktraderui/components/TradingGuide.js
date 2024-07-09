@@ -24,7 +24,7 @@ const TradingGuide = () => {
       <p><code>Example: !trade sell MSFT 100</code></p>
 
       <h3><strong>How do I know if the trade was successful?</strong></h3>
-      <p>Check the pie chart on the homepage for your trade!</p>
+      <p>Check the pie chart on the homepage or Account History for your trade!</p>
    
       <h3><strong>Do you have examples of any stock symbols I could use?</strong></h3>
       <p>It is encouraged you do your own research however, see below for a list of well known stocks and their corresponding symbols</p>
