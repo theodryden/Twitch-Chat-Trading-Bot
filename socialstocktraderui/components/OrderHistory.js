@@ -1,13 +1,13 @@
-// src/components/OrderHistory.js
 import React from 'react';
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from '@mui/material';
-import styles from '../components/OrderHistory.module.css'
+import styles from '../components/OrderHistory.module.css';
 
-// Define the prop types for the orders
 const OrderHistory = ({ orders }) => {
-  if (orders.length === 0) {
+  console.log('Orders:', orders); // Log orders to see what is being passed to the component
+
+  if (!orders || orders.length === 0) {
     return <p>No orders found.</p>;
-  }
+  } 
 
   return (
     <TableContainer component={Paper} className={styles.OrderHistory}>
@@ -40,4 +40,5 @@ const OrderHistory = ({ orders }) => {
 };
 
 export default OrderHistory;
+
 
