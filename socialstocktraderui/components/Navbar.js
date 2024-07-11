@@ -10,7 +10,7 @@ const Navbar = () => {
                     Home
                 </Link>
                 <Link href="/app-guide" className={styles.navLink}>
-                    Guide
+                    User Guide
                 </Link>
                 <Link href="/AccountHistory" className={styles.navLink}>
                     Account History
