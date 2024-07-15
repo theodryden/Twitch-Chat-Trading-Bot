@@ -5,11 +5,12 @@ How it works
 Access the live app link here: socialstocktrader.vercel.app
 
 **Basic Description**
-The linked trading account started with $100,000
-Participants discussed their stock investment ideas before placing a trade in the chat of https://www.twitch.tv/theodrydentech
+*
+Trading account starts with $100,000. Participants discuss their stock investment ideas before placing a trade in the chat of https://www.twitch.tv/theodrydentech
 Trades are placed by typing "!trade direction stock quantity" in Twitch chat : e.g. "!trade buy AAPL 100" / "!trade sell AAPL 100"
-Participants can see the portfolio performance of the trading account by visiting the website:
+Participants can see the portfolio performance of the trading account by visiting the website: socialstocktrader.vercel.app
 Orders placed outside of market hours will be fulfilled later on.
+*
 
 **Tech Stack**
 **Font-End**
