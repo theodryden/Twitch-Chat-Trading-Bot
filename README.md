@@ -52,9 +52,7 @@ Learn More
 - Creating a user login system with Clerk Auth
 - Update the navigation bar design from top to side bar
   
-
-**To learn more about my projects and coding journey take a look at the following resources:
-**
+**To learn more about my projects and coding journey take a look at the following resources:**
 LinkedIN
 
 https://www.linkedin.com/in/theo-dryden-bb6526114/
