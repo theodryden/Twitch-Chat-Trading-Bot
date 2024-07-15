@@ -44,28 +44,24 @@ Hosting on AWS
 - Splitting the project into two parts instead of one whole
 
 **Overall Experience**
-This was a fun project I wanted to create once I learned how programming works.
-Learn More
+This a great project to challenge my understanding of Next.JS/React file/folder structure and components. It was also a good attempt at creating something with the purpose of solving a realworld problem.
 
 **Future Improvements**
 - Creating a homepage to better present the application
 - Creating a user login system with Clerk Auth
 - Update the navigation bar design from top to side bar
   
-**To learn more about my projects and coding journey take a look at the following resources:**
-LinkedIN
+**Social Channels**
 
+**LinkedIN**
 https://www.linkedin.com/in/theo-dryden-bb6526114/
 
-Youtube Channel
-
+**Youtube Channel**
 https://www.youtube.com/channel/UCd7TxJrTbBP4e_tQULCyTnA
 
-Codecademy
-
+**Codecademy**
 https://www.codecademy.com/users/TheoDryden/achievements
 
-Github
-
+**Github**
 https://github.com/theodryden
 
