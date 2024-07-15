@@ -42,6 +42,8 @@ Hosting on AWS
 - Usage of environment variables 
 - Next.JS API file/folder structure
 - Splitting the project into two parts instead of one whole
+- Ensuring the bot.js script was running on the server when I didn't have the terminal open by using pm2 process manager.
+![Screenshot 2024-07-15 at 22 09 18](https://github.com/user-attachments/assets/b3fc0168-fdca-43b4-8b3a-038ce3fa547e)
 
 **Overall Experience**
 This a great project to challenge my understanding of Next.JS/React file/folder structure and components. It was also a good attempt at creating something with the purpose of solving a realworld problem.
