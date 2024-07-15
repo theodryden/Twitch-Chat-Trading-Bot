@@ -1,16 +1,12 @@
 **Twitch Chat Trading Bot README**
 This is a full-stack application created by Theo Dryden to generate excitement around financial education by creating the opportunity to discuss assets/investing on live social media platforms (Twitch) using REAL-TIME trading algorithms.
-How it works
 
-Access the live app link here: socialstocktrader.vercel.app
-
-**Basic Description**
-*
 Trading account starts with $100,000. Participants discuss their stock investment ideas before placing a trade in the chat of https://www.twitch.tv/theodrydentech
 Trades are placed by typing "!trade direction stock quantity" in Twitch chat : e.g. "!trade buy AAPL 100" / "!trade sell AAPL 100"
 Participants can see the portfolio performance of the trading account by visiting the website: socialstocktrader.vercel.app
 Orders placed outside of market hours will be fulfilled later on.
-*
+
+Access the live app link here: socialstocktrader.vercel.app
 
 **Tech Stack**
 **Font-End**
@@ -28,11 +24,13 @@ Hosting on AWS
 1. Bullet pointed feature requirements
 2. Determined file and folder structure
 3. Created a basic design of the pages using Figma
-4. Started programming the bot.js for twitch
-5. Programmed the front end
-6. Testing and tweaks
-7. Launched on Vercel and AWS
-8. Promoted on LinkedIn and Instagram
+4. ![Screenshot 2024-07-15 at 09 43 09](https://github.com/user-attachments/assets/a068e13f-ce2c-4cea-ada7-23c7bb797113)
+
+5. Started programming the bot.js for twitch
+6. Programmed the front end
+7. Testing and tweaks
+8. Launched on Vercel and AWS
+9. Promoted on LinkedIn and Instagram
 
 **Challenges**
 - The API Keys displaying as undefined using the env variables. 
